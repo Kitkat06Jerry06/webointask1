@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- <div class="navbar">
+        <nav>
+            <h1></h1>
+            <ul>
+                <li>Home |</li>
+                <li>Images |</li>
+                <li>About Us |</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+     </div> -->
+
+
+
+
+    <!-- <div class="container">
+        <center><h1>CARD MANAGEMENT SYSTEM</h1></center>
+    </div> -->
+
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <div class="container">
+            <h1>Welcome to Card Project</h1>
+            <p>Manage and view company cards with ease!</p>
+        </div>
+    </section>
+
+
+
+     <!-- Company Logos Slider -->
+    <section class="company-slider">
+        <div class="container">
+            <h2>Our Partners</h2>
+            <div class="slider">
+                <img src="/img/airbnb.png" alt="Airbnb">
+                <img src="/img/coty.png" alt="Coty">
+                <img src="/img/lilly.png" alt="Lilly">
+                <img src="/img/microsoft.png" alt="Microsoft">
+                <img src="/img/tailus.png" alt="Tailus">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    
+
+    
+
+    <div class="overlay"></div>
+    <div class="box">
+        <center><h2><b>Add Company Details</b></h2></center>
+        <form>
+            <!-- <input type="text" id="image-input" placeholder="Enter Image URL" required> -->
+             
+            <!-- <input type="text" placeholder="Company Name" id="name-input"> -->
+             
+            <select id="name-input">
+                <option value="">Select Company</option>
+                <option value="Microsoft">Microsoft</option>
+                <option value="Airbnb">Airbnb</option>
+                <option value="Lilly">Lilly</option>
+                <option value="Tailus">Tailus</option>
+                <option value="Coty">Coty</option>
+            </select>
+            <!-- <input type="text" placeholder="Product Name" id="product-input"> -->
+            <input type="text" placeholder="Location" id="location-input">
+            <input type="text" placeholder="Details" id="details-input">
+            <select id="status">
+                <option value="">Status</option>
+                <option value="Placed">Placed</option>
+                <option value="Unplaced">Unplaced</option>
+            </select>
+            <button id="add-card">ADD CARD</button>
+            <button id="cancel-card">CANCEL</button>
+        </form>
+    </div>
+
+    <div class="card-container" id="card-container">
+         
+    </div>
+
+    <button class="add-button" id="button">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
